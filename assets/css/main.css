@@ -2185,7 +2185,7 @@ input, select, textarea {
 /* Medium */
 
 	#navPanel, #navToggle {
-		display: none !important;
+		display: none;
 		/* display: none; */
 	}
 
@@ -2297,7 +2297,7 @@ input, select, textarea {
 		/* Nav */
 
 			#nav {
-				display: none !important;
+				display: none;
 			}
 
 		/* Banner */
