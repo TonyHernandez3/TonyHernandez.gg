@@ -192,12 +192,12 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 	.credit {
-    	position: fixed;
+    	position: relative;
 		right: 20px;
-		bottom: 15px;
+		bottom: -0.5em;
 		margin: 0;
 		color: #000000;
-		font-size: 12px;
+		font-size: 6px;
 		z-index: 1000;
 	}
 
@@ -2017,7 +2017,7 @@ input, select, textarea {
 				}
 
 				#nav ul li > ul {
-					display: none;
+					display: none !important;
 				}
 
 				#nav ul li:hover a, #nav ul li:hover span {
@@ -2185,7 +2185,7 @@ input, select, textarea {
 /* Medium */
 
 	#navPanel, #navToggle {
-		display: none;
+		display: none !important;
 		/* display: none; */
 	}
 
