@@ -192,7 +192,7 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 	.credit {
-    	position: absolute;
+    	position: fixed;
 		right: 20px;
 		bottom: 15px;
 		margin: 0;
@@ -1984,7 +1984,7 @@ input, select, textarea {
 		}
 
 /* Nav */
-	
+
 	#nav {
 		position: absolute;
 		right: 0;
@@ -2032,7 +2032,7 @@ input, select, textarea {
 					background: #444;
 					color: #fff;
 				}
-			
+
 	.dropotron {
 		background: #fff;
 		letter-spacing: 0.025em;
