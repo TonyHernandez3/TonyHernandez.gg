@@ -191,7 +191,19 @@ input, select, textarea {
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
 	}
+	.credit {
+    	text-align: right;
+    	color: #000000;
+	}
 
+	.credit a {
+    	color: #000000;
+    	text-decoration: none;
+	}
+
+	.credit a:hover {
+    	color: #000000;
+	}
 /* Container */
 
 	.container {
