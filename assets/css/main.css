@@ -143,7 +143,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2.25em;
-		margin: 0 0 1.1em 0;
+		margin: 0.8em 0 0.6em 0;
 		line-height: 1em;
 	}
 
@@ -1909,7 +1909,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		padding: 4.5em 0 3em 0;
+		padding: 4.5em 0 2em 0;
 	}
 
 	#features-wrapper {
@@ -1921,7 +1921,7 @@ input, select, textarea {
 		background-image: url("images/bg01.png"), linear-gradient(rgb(50, 50, 44) 0%, rgb(50, 50, 44) 20%, rgb(44, 10, 98) 100%);
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
-		padding: 5em 0px;
+		padding: 2em 0px;
 	}
 
 	#footer-wrapper {
@@ -2592,11 +2592,12 @@ input, select, textarea {
 						position: relative;
 						margin: 0;
 					}
-
+						/*
 						.box.feature .image img {
 							border-bottom-left-radius: 0;
 							border-bottom-right-radius: 0;
 						}
+						*/
 
 		/* Widgets */
 
