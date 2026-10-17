@@ -192,7 +192,7 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 	.credit {
-    	position: fixed;
+    	position: absolute;
 		right: 20px;
 		bottom: 15px;
 		margin: 0;
@@ -1984,7 +1984,7 @@ input, select, textarea {
 		}
 
 /* Nav */
-
+	
 	#nav {
 		position: absolute;
 		right: 0;
@@ -2011,7 +2011,7 @@ input, select, textarea {
 					font-weight: 800;
 					letter-spacing: 0.025em;
 					color: #696969;
-					text-decoration: none;
+					text-decoration: none !important;
 					border-radius: 6px;
 					padding: 0.5em 1em 0.5em 1em;
 				}
@@ -2032,7 +2032,7 @@ input, select, textarea {
 					background: #444;
 					color: #fff;
 				}
-
+			
 	.dropotron {
 		background: #fff;
 		letter-spacing: 0.025em;
@@ -2297,7 +2297,7 @@ input, select, textarea {
 		/* Nav */
 
 			#nav {
-				display: none;
+				display: none !important;
 			}
 
 		/* Banner */
