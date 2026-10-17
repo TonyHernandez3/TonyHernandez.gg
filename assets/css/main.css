@@ -192,7 +192,7 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 	.credit {
-    	position: fixed;
+    	position: absolute;
 		right: 20px;
 		bottom: 15px;
 		margin: 0;
