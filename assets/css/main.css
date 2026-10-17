@@ -2164,7 +2164,8 @@ input, select, textarea {
 /* Medium */
 
 	#navPanel, #navToggle {
-		display: none;
+		display: none !important;
+		/* display: none; */
 	}
 
 	@media screen and (max-width: 980px) {
@@ -2403,7 +2404,8 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				display: block;
+				display: none !important;
+				/* display: block; */
 				height: 100%;
 				left: 0;
 				overflow-y: auto;
