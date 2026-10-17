@@ -1805,11 +1805,12 @@ input, select, textarea {
 				position: relative;
 				margin: 0;
 			}
-
+				/*
 				.box.feature .image img {
 					border-bottom-left-radius: 0;
 					border-bottom-right-radius: 0;
 				}
+				*/
 
 /* Icons */
 
@@ -1916,7 +1917,11 @@ input, select, textarea {
 	}
 
 	#main-wrapper {
-		background: #fff;
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
+		background: linear-gradient(rgb(50, 50, 44) 0%, rgb(50, 50, 44) 85%, rgb(44, 10, 98) 100%);
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 		padding: 5em 0 5em 0;
 	}
